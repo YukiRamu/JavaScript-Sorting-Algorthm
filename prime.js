@@ -8,7 +8,8 @@
 // Validation check covers...
 // is the number integger? => No then it is not a prime number
 */
-const isPrime = (number) => {
+//export 2 functions
+export const isPrime = (number) => {
 
   if (number === 2) {
     return true; //prime
@@ -42,7 +43,7 @@ const isPrime = (number) => {
 }
 
 /* =========== Push all prime numbers into an array ============= */
-const primeNumGenerator = (end) => {
+export const primeNumGenerator = (end) => {
   let primeNumArray = [];
   for (let num = 0; num < end; num++) {
     if (isPrime(num)) {
@@ -52,4 +53,4 @@ const primeNumGenerator = (end) => {
   console.log(primeNumArray);
   return primeNumArray
 }
-primeNumGenerator(101) //specify the end number here
+//primeNumGenerator(101) //specify the end number here
