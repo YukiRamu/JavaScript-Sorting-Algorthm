@@ -2,7 +2,7 @@
 
   <ul>
     <li>Bubble Sort - done</li>
-    <li>Selection Sort</li>
+    <li>Selection Sort - done</li>
     <li>Insertion Sort</li>
     <li>Merger Sort</li>
     <li>Quick Sort</li>
